@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify - Web Player: Music for everyone</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="utility.css">
+  <link rel="icon" href="svg/icon.svg">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="container flex bg-black">
+    <!-- Left Sidebar -->
+    <div class="left">
+      <div class="home bg-grey rounded m-1 p-1">
+        <div class="logo">
+          <img width="110" class="invert" src="svg/logo.svg" alt="Logo">
+        </div>
+        <ul>
+          <li><img class="invert" src="svg/home.svg" alt="Home">Home</li>
+          <li><img class="invert" src="svg/search.svg" alt="Search">Search</li>
+        </ul>
+      </div>
+
+      <div class="library bg-grey rounded m-1 p-1">
+        <div class="heading">
+          <img class="invert" src="svg/library.svg" alt="Library">
+          <h2>Your Library</h2>
+        </div>
+
+        <div class="songList">
+          <ul>
+            <!-- Song list items will be injected by JS -->
+          </ul>
+        </div>
+
+        <div class="footer">
+          <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+          <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+          <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a></div>
+          <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+          <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+          <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Section -->
+    <div class="right bg-grey rounded">
+      <div class="header">
+        <div class="nav">
+          <div class="hamburgerContainer">
+            <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M15 6L9.707 11.293c-.333.334-.5.5-.5.707s.167.373.5.707L15 18" stroke="#fff" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9 18l5.293-5.293c.333-.334.5-.5.5-.707s-.167-.373-.5-.707L9 6" stroke="#fff" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </div>
+        </div>
+        <div class="buttons">
+          <button class="signupbtn">Sign up</button>
+          <button class="loginbtn">Log in</button>
+        </div>
+      </div>
+
+      <!-- Playlist Cards -->
+      <div class="spotifyPlaylists">
+        <h1>Spotify Playlists</h1>
+        <div class="cardContainer">
+          <ul>
+            <!-- card1  -->
+            <li>
+              <div class="card">
+                <img src="songimg/chandniya.jpeg" alt="">
+                <div>
+                  <div class="songname">Chandniya(From Ashish Chanchlani)</div>
+                  <p>Vishal Mishra</p>
+                  <img src="svg/spotify_play_btn.svg" alt="" class="cardplay">
+                </div>
+              </div>
+
+            </li>
+
+
+            <!-- card2  -->
+            <li>
+              <div class="card">
+                <img src="songimg/Chorbazari.jpeg" alt="">
+                <div>
+                  <div class="songname">Chor Bazri(From Bhul Chuk Mafh)</div>
+                  <p>Vishal Mishra</p>
+                  <img src="svg/spotify_play_btn.svg" alt="" class="cardplay">
+                </div>
+              </div>
+            </li>
+
+            <!-- card3  -->
+            <div class="card">
+                <li>
+                <img src="songimg/Dhun.jpeg" alt="">
+                <div>
+                  <div class="songname">Dhun(From Saiyaara)</div>
+                  <p>Vishal Mishra</p>
+                  <img src="svg/spotify_play_btn.svg" alt="" class="cardplay">
+                </div>
+              </div>
+            </li>
+
+            <!-- card4  -->
+            <li>
+              <div class="card">
+                <img src="songimg/Humsafar.jpeg" alt="">
+                <div>
+                  <div class="songname">Hamsafar(From Saiyaara)</div>
+                  <p>Vishal Mishra</p>
+                  <img src="svg/spotify_play_btn.svg" alt="" class="cardplay">
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Play Bar -->
+        <div class="playbar">
+          <div class="seekbar">
+            <!-- <div class="circle"></div> -->
+             <input type="range" id="musicrange">
+          </div>
+          <div class="abovebar">
+            <div class="songdata">
+              <div class="songinfo">song name</div>
+              <div class="artics_name">song name</div>
+
+
+            </div>
+
+            <div class="songbuttons">
+              <img width="35" id="previous" src="svg/back.svg" alt="Previous">
+              <img width="35" id="play" src="svg/play.svg" alt="Play">
+              <!-- <img width="35" id="play" src="svg/pause.svg" alt="Play"> -->
+
+              <img width="35" id="next" src="svg/next.svg" alt="Next">
+            </div>
+            <div class="timevol">
+              <div class="songtime">00:00/00:00</div>
+              <!-- <div class="volume">
+                <img width="25" src="svg/valume.svg" alt="Volume">
+                <div class="range">
+                  <input type="range" name="volume" min="0" max="100">
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

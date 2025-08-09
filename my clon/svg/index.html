@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spotify - Web Player: Music for everyone</title>
+  <link rel="icon" href="icon.svg">
+  <link rel="stylesheet" href="utility.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container flex">
+    <!-- Sidebar -->
+    <div class="left">
+      <div class="home">
+        <div class="logo">
+          <img src="logo.svg" alt="logo" class="invert" />
+        </div>
+        <ul>
+          <li class="flex">
+            <img src="home.svg" alt="Home" class="invert" />
+            <div class="menu_name">Home</div>
+          </li>
+          <li class="flex">
+            <img src="search.svg" alt="Search" class="invert" />
+            <div class="menu_name">Search</div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="left_library">
+        <img src="library.svg" alt="Library" class="invert" />
+        <span>Your Library</span>
+      </div>
+
+      <div class="songList">
+        <ul>
+
+        </ul>
+      </div>
+
+
+      <div class="library">
+        <div class="first_playlist">
+          <h5>Let's find some podcasts to follow</h5>
+          <span class="first_content">We'll keep you updated on new episodes</span>
+        </div>
+        <button class="create_playlist2">Browse Podcasts</button>
+      </div>
+
+      <div class="footer">
+        <a href="#">Legal</a>
+        <a href="#">Privacy</a>
+        <a href="#">Cookies</a>
+        <a href="#">About Ads</a>
+        <a href="#">Accessibility</a>
+      </div>
+    </div>
+
+    <!-- Main content -->
+    <div class="right">
+      <div class="header">
+        <div class="nav">
+          <input type="text" placeholder="Search..." />
+          <img src="search.svg" alt="Search button" class="search" />
+        </div>
+        <div class="AC_button">
+          <button id="signup">Sign up</button>
+          <button id="Login">Login</button>
+        </div>
+      </div>
+
+      <div class="spotify_playlist">
+        <h2>Spotify Playlist</h2>
+        <div class="card_container">
+          <!-- Card 1 -->
+          <div class="card1">
+            <div class="img_container">
+              <img src="songimg/chandniya.jpg" alt="Dhun" />
+              <div class="play_btn">
+                <img src="spotify_play_btn.svg" alt="Play" />
+              </div>
+            </div>
+            <h4>Chandniya (From "Master of Melody")</h4>
+            <p>Mithoon, Vishal Mishra</p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="card2">
+            <div class="img_container2">
+              <img src="songimg/chor bazari.jpg" alt="Saiyaara" />
+              <div class="play_btn">
+                <img src="spotify_play_btn.svg" alt="Play" />
+              </div>
+            </div>
+            <h4>Chor Bazari (From "Bhul Chuk Maaf")</h4>
+            <p> Pritam ,Tanishk Bagchi </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="card3">
+            <div class="img_container">
+              <img src="songimg//Dhun.jpeg" alt="Tum Ho Toh" />
+              <div class="play_btn">
+                <img src="spotify_play_btn.svg" alt="Play" />
+              </div>
+            </div>
+            <h4>Dhun (From"Saiyaara")</h4>
+            <p>Mithun, Arjit Singh</p>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="card4">
+            <div class="img_container">
+              <img src="songimg/Hamsafar.jpeg" alt="Humsafar" />
+              <div class="play_btn">
+                <img src="spotify_play_btn.svg" alt="Play" />
+              </div>
+            </div>
+            <h4>Humsafar</h4>
+            <p>Sachet Tandon, Parampara</p>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="card5">
+            <div class="img_container">
+              <img src="songimg/lal pari.jpg" alt="Sapphire" />
+              <div class="play_btn">
+                <img src="spotify_play_btn.svg" alt="Play" />
+              </div>
+            </div>
+            <h4>Lal pari (From "Housefull 5")</h4>
+            <p>Yo yo Honey Singh,</p>
+          </div>
+
+          <!-- card -6  -->
+          <div class="card5">
+            <div class="img_container">
+              <img src="songimg/millionaire.jpg" alt="Sapphire" />
+              <div class="play_btn">
+                <img src="spotify_play_btn.svg" alt="Play" />
+              </div>
+            </div>
+            <h4>Millionaire</h4>
+            <p>Yo Yo Honey Singh</p>
+          </div>
+
+          <!-- card 7  -->
+          <div class="card5">
+            <div class="img_container">
+              <img src="songimg/sanam teri kasam.jpg" alt="Sapphire" />
+              <div class="play_btn">
+                <img src="spotify_play_btn.svg" alt="Play" />
+              </div>
+            </div>
+            <h4>Sanam Teri Kasam</h4>
+            <p>Himesh Reshmiya, Anikit Tiwari, Palak Muchhal</p>
+          </div>
+
+          <!-- card 8 -->
+          <div class="card5">
+            <div class="img_container">
+              <img src="songimg/Sapphire.jpeg" alt="Sapphire" />
+              <div class="play_btn" <img src="spotify_play_btn.svg" alt="Play" />
+            </div>
+          </div>
+          <h4>Sapphire (feat. Arijit Singh)</h4>
+          <p>Ed Sheeran, Arijit Singh</p>
+        </div>
+
+        <!-- card 9-->
+        <div class="card5">
+          <div class="img_container">
+            <img src="songimg/Saiyaara.jpeg" alt="Sapphire" />
+            <div class="play_btn">
+              <img src="spotify_play_btn.svg" alt="Play" />
+            </div>
+          </div>
+          <h4>Saiyaara (From "Saiyaara")</h4>
+          <p>Tanishk Bagchi, Faheem Abdullah, Arslan Nizami </p>
+        </div>
+
+
+        <!-- card 10  -->
+
+        <div class="card5">
+          <div class="img_container">
+            <img src="songimg/Tum ho toh.jpeg" alt="Sapphire" />
+            <div class="play_btn">
+              <img src="spotify_play_btn.svg" alt="Play" />
+            </div>
+          </div>
+          <h4>Tum ho toh (From "Saiyaara")</h4>
+          <p>Vishal Mishra,Hansika Pareek</p>
+        </div>
+
+      </div>
+      <div class="playbar">
+        <div class="songbtn">
+          <div class="songinfo"></div>
+          <div class="songbtn">
+            <img src="back.svg" alt="" class="invert" id="previous">
+            <img src="play.svg" alt="" class="invert" id="play">
+            <img src="next.svg" alt="" class="invert" id="next">
+          </div>
+          <div class="songtime"></div>
+        </div>
+        <div class="seekbar">
+          <input type="range" id="range" value="0">
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
