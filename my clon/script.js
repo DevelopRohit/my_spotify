@@ -2,7 +2,7 @@ let song = [
     {
         id: 1,
         songName: "Chandniya",
-        artis: "Artics one",
+        artis: "Vishal Mishra, Mithoon",
         src: "song/Chandaniya Master Of Melody 128 Kbps.mp3",
         songimg: "songimg/chandniya.jpeg",
         musicsvg: "svg/music.svg"
@@ -10,7 +10,7 @@ let song = [
     {
         id: 2,
         songName: "Chor Bazari",
-        artis: "Artics two",
+        artis: "Neeraj Shridhar, Sunidhi Chauhan, Zahrah S Khan, and Tanishk Bagchi",
         src: "song/Chor Bazari Phir Se Bhool Chuk Maaf 128 Kbps.mp3",
         songimg: "songimg/Chorbazari.jpeg",
         musicsvg: "svg/music.svg"
@@ -18,7 +18,7 @@ let song = [
     {
         id: 3,
         songName: "Dhun",
-        artis: "Artics trhee",
+        artis: "Arijit Singh, Mithoon",
         src: "song/Dhun Saiyaara 128 Kbps.mp3",
         songimg: "songimg/Dhun.jpeg",
         musicsvg: "svg/music.svg"
@@ -26,7 +26,7 @@ let song = [
     {
         id: 4,
         songName: "Hamsafar",
-        artis: "Artics four",
+        artis: "Sachet Tandon and Parampara Tandon",
         src: "song/Humsafar Saiyaara 128 Kbps.mp3",
         songimg: "songimg/Humsafar.jpeg",
         musicsvg: "svg/music.svg"
