@@ -31,6 +31,63 @@ let song = [
         songimg: "songimg/Humsafar.jpeg",
         musicsvg: "svg/music.svg"
     },
+
+        {
+        id: 5,
+        songName: "Lal Pari",
+        artis: "Yo Yo Honey Singh,Simar Kaur",
+        src: "song/Laal Pari Housefull 5 128 Kbps.mp3",
+        songimg: "songimg/lal pari.jpeg",
+        musicsvg: "svg/music.svg"
+    },
+
+
+        {
+        id: 6,
+        songName: "Millionaire",
+        artis: "Yo Yo Honey Singh",
+        src: "song/Millionaire Glory 128 Kbps (1).mp3",
+        songimg: "songimg/Millionaire Glory.webp",
+        musicsvg: "svg/music.svg"
+    },
+
+
+
+        {
+        id: 7,
+        songName: "sanam teri kasam",
+        artis: "Ankit Tiwari,Palak Muchhal",
+        src: "song/Sanam Teri Kasam - Sanam Teri Kasam 128 Kbps.mp3",
+        songimg: "songimg/sanam teri kasam.jpeg",
+        musicsvg: "svg/music.svg"
+    },
+
+
+
+        {
+        id: 8,
+        songName: "Sapphire",
+        artis: "Ed Sheeran",
+        src: "song/Sapphire - (Raag.Fm).mp3",
+        songimg: "songimg/sappari.jpeg",
+        musicsvg: "svg/music.svg"
+    },
+
+
+
+
+        {
+        id: 9,
+        songName: "Tum ho to",
+        artis: "Mithoon, Sachet Parampara, Tanishk Bagchi",
+        src: "song/Tum Ho Toh Saiyaara 128 Kbps.mp3",
+        songimg: "songimg/tum ho to.jpeg",
+        musicsvg: "svg/music.svg"
+    },
+
+
+
+    
 ];
 
 let currentSongindex = 0;
